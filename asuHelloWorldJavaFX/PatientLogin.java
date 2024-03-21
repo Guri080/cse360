@@ -44,7 +44,7 @@ public class PatientLogin {
 	        
 	        loginBtn.setFont(largeFont);
 	        /*-----------------------------------------------------------------------------------------------------*/
-	        loginBtn.setOnAction(event -> { //when employee login button is clicked
+	        loginBtn.setOnAction(event -> { //when patient login button is clicked
 				PatientPortal patientLoginGUI = new PatientPortal();
 				stage.close();
 				patientLoginGUI.start(new Stage());

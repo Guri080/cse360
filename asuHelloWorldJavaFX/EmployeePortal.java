@@ -42,7 +42,7 @@ public class EmployeePortal {
 		
 		
 		/*---------------------------------------------------------------------------------------*/
-		 logOut.setOnAction(event -> { //when employee login button is clicked
+		 logOut.setOnAction(event -> { //when employee info is filled and log in is clicked
 				ASUHelloWorldJavaFX mainPage = new ASUHelloWorldJavaFX();
 				stage.close();
 				try {

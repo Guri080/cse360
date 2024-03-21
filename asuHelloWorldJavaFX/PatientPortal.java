@@ -42,7 +42,7 @@ public class PatientPortal {
 		intro.setFont(largeBoldFont);
 		logOut.setFont(largeFont);
 		/*---------------------------------------------------------------------------------------*/
-		logOut.setOnAction(event -> { //when employee login button is clicked
+		logOut.setOnAction(event -> { //when patient info is filled and log in is clicked
 			ASUHelloWorldJavaFX mainPage = new ASUHelloWorldJavaFX();
 			stage.close();
 			try {
