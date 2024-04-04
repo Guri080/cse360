@@ -46,7 +46,7 @@ public class ASUHelloWorldJavaFX extends Application {
 		VBox login = new VBox();
 		login.setAlignment(Pos.CENTER);
 		
-		Button employeeLogin = new Button("Employee Login");
+		Button employeeLogin = new Button("Employee"); // made change here
 		Button patientLogin = new Button("Patient Login");
 		
 		login.setMinHeight(200);
